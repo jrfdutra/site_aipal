@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jrfdutra.github.io/aipal-site",
+  "homepage": "https://jrfdutra.github.io/site_aipal",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

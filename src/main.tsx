@@ -4,7 +4,7 @@ import App from "./App.tsx";
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/aipal-site">
+  <BrowserRouter basename="/site_aipal/">
     <App />
   </BrowserRouter>
 );
