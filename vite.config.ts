@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
+// Configuração completa para React + GitHub Pages
 export default defineConfig(({ mode }) => ({
-  base: "/site_aipal/", // <--- atualizado para o nome do repo
+  base: "/site_aipal/", // O nome exato do repositório
   server: {
     host: "::",
     port: 8080,
@@ -18,5 +18,8 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    outDir: "dist", // pasta padrão do gh-pages
   },
 }));
