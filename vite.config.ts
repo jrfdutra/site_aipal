@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/aipal-site/", // <--- ESSENCIAL para GitHub Pages
+  base: "/site_aipal/", // <--- atualizado para o nome do repo
   server: {
     host: "::",
     port: 8080,
