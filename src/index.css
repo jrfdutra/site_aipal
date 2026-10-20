@@ -8,15 +8,15 @@
 
 @layer base {
   :root {
-    /* Core palette - warm off-whites and rich blacks */
+    /* Core palette - warm off-whites and AIPAL red */
     --background: 40 20% 98%;
-    --foreground: 0 0% 5%;
+    --foreground: 1 90% 33%;
 
     --card: 40 15% 97%;
-    --card-foreground: 0 0% 5%;
+    --card-foreground: 1 90% 33%;
 
     --popover: 40 20% 98%;
-    --popover-foreground: 0 0% 5%;
+    --popover-foreground: 1 90% 33%;
 
     /* Primary - warm earthy tones */
     --primary: 35 25% 25%;
@@ -47,7 +47,7 @@
     /* Custom Fabrique tokens */
     --cream: 40 30% 96%;
     --warm-white: 40 20% 98%;
-    --rich-black: 0 0% 5%;
+    --rich-black: 1 90% 33%;
     --bread-gold: 35 60% 55%;
     --crust-brown: 25 50% 35%;
     --flour-white: 40 15% 92%;
